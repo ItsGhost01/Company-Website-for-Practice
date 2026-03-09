@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Company</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+scroll-behavior:smooth;
+padding-top:70px;
+}
+
+/* NAVBAR */
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 40px;
+background:white;
+position:fixed;
+top:0;
+left:0;
+width:100%;
+box-shadow:0 2px 5px rgba(0,0,0,0.1);
+box-sizing:border-box;
+}
+
+.navbar .nav{
+margin-right:30px;
+}
+
+.navbar a{
+text-decoration:none;
+color:black;
+margin-left:25px;
+font-size:20px;
+}
+
+.navbar a i{
+margin-right:6px;
+}
+
+.navbar div:first-child{
+font-size:26px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+font-display: block;
+}
+
+
+
+/* HERO */
+
+.hero{
+background-image:url('https://www.w3schools.com/w3images/mac.jpg');
+background-size:cover;
+background-position:center;
+height:650px;
+display:flex;
+align-items:center;
+color:white;
+padding-left:80px;
+}
+
+.hero h1{
+font-size:60px;
+margin:0;
+}
+
+.button{
+background:#ccc;
+color:black;
+padding:12px 20px;
+display:inline-block;
+margin-top:20px;
+}
+
+/* ABOUT */
+
+.about{
+text-align:center;
+padding:80px 40px;
+}
+
+.features{
+display:flex;
+justify-content:space-around;
+margin-top:50px;
+}
+
+.feature{
+width:22%;
+}
+
+.feature i{
+font-size:60px;
+margin-bottom:15px;
+}
+
+/* DESIGN */
+
+.design{
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:80px;
+background:#dedcdc;
+}
+
+.design-text{
+width:40%;
+font-size:16px;
+}
+
+.design img{
+width:45%;
+border-radius:8px;
+}
+
+.btn-black{
+background:black;
+color:white;
+padding:12px 18px;
+display:inline-block;
+margin-top:15px;
+}
+
+/* TEAM Section*/
+body{
+    font-family: Arial, sans-serif;
+    background:#f2f2f2;
+    margin:0;
+}
+
+.team{
+    text-align:center;
+    padding:50px 20px;
+}
+
+.team h2{
+    letter-spacing:2px;
+    font-size:36px;
+}
+
+.subtitle{
+    color:#000000;
+    margin-bottom:40px;
+    font-size: 30px;
+}
+
+.team-container{
+    display:flex;
+    justify-content:center;
+    gap:100px;
+    flex-wrap:wrap;
+    
+}
+
+.card{
+    background:white;
+    width:360px;
+    box-shadow:0 4px 20px rgba(15, 15, 15, 0.1);
+    
+}
+
+.card img{
+    width:100%;
+    height:360px;
+    object-fit:cover;
+}
+
+.card-content{
+    padding:15px;
+    text-align:left;
+}
+
+.card-content h3{
+    margin:5px 0;
+}
+
+.card-content span{
+    color:gray;
+    font-size:14px;
+}
+
+.card-content p{
+    font-size:14px;
+    color:#444;
+}
+
+button{
+    width:100%;
+    padding:10px;
+    border:none;
+    background:#eee;
+    cursor:pointer;
+    margin-top:10px;
+}
+
+button:hover{
+    background:#ddd;
+}
+
+
+/* Stats */
+
+.stats{
+background:#000000;
+color:white;
+display:flex;
+justify-content:space-around;
+text-align:center;
+padding:60px 0;
+margin-top:80px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.stat-box h2{
+font-size:40px;
+font-weight:normal;
+margin:0;
+}
+
+.stat-box p{
+margin-top:10px;
+font-size:16px;
+}
+
+/* Our Work*/
+
+body{
+    font-family: Arial, sans-serif;
+    background:#f2f2f2;
+    margin:0;
+}
+
+.work h2{
+    letter-spacing:2px;
+    font-size:36px;
+}
+.work{
+text-align:center;
+padding:60px 30px;
+font-size:30px;
+}
+
+.subtitle{
+margin-bottom:40px;
+color:#000000;
+margin-bottom:40px;
+font-size: 25px;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:15px;
+}
+
+.gallery img{
+width:100%;
+height:100%;
+object-fit:cover;
+}
+
+/* CONTACT FORM*/
+
+.contact{
+padding:80px 40px;
+text-align:center;
+background:#f9f9f9;
+}
+
+.contact form{
+max-width:600px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+.contact input,
+.contact textarea{
+padding:12px;
+border:1px solid #ccc;
+font-size:14px;
+}
+
+.contact button{
+background:black;
+color:white;
+padding:12px;
+border:none;
+cursor:pointer;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<div class="navbar">
+
+<div>LOGO</div>
+
+<div class="Nav">
+<a href="#about"><i class=""></i> ABOUT</a>
+<a href="#team"><i class="fa fa-user"></i> TEAM</a>
+<a href="#design"><i class="fa fa-th"></i> WORK</a>
+<a href="#pricing"><i class="fa fa-dollar-sign"></i> PRICING</a>
+<a href="#contact"><i class="fa fa-envelope"></i> CONTACT</a>
+</div>
+
+</div>
+
+<!-- HERO -->
+
+<div class="hero">
+
+<div>
+<h1>Start something that matters</h1>
+
+<p>Stop wasting valuable time with projects that just isn't you.</p>
+
+<div class="button">Learn more and start today</div>
+</div>
+
+</div>
+
+<!-- ABOUT -->
+
+<section id="about" class="about">
+
+<h2>ABOUT THE COMPANY</h2>
+<p>Key features of our company</p>
+
+<div class="features">
+
+<div class="feature">
+<i class="fa fa-desktop"></i>
+<h3>Responsive</h3>
+<p>Lorem ipsum dolor sit amet.</p>
+</div>
+
+<div class="feature">
+<i class="fa fa-heart"></i>
+<h3>Passion</h3>
+<p>Lorem ipsum dolor sit amet.</p>
+</div>
+
+<div class="feature">
+<i class="fa fa-gem"></i>
+<h3>Design</h3>
+<p>Lorem ipsum dolor sit amet.</p>
+</div>
+
+<div class="feature">
+<i class="fa fa-gear"></i>
+<h3>Support</h3>
+<p>Lorem ipsum dolor sit amet.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="design" class="design">
+
+<div class="design-text">
+
+<h2>We know design.</h2>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+
+<div class="btn-black">
+<i class="fa fa-th"></i> View Our Works
+</div>
+
+</div>
+
+<img src="https://www.w3schools.com/w3images/phone_buildings.jpg">
+
+</section>
+<!-- Team Section -->
+<section class="team" id="team">
+    <h2>THE TEAM</h2>
+    <p class="subtitle">The ones who runs this company</p>
+
+    <div class="team-container">
+
+        <div class="card">
+            <img src="Monish.jpeg" alt="">
+            <div class="card-content">
+                <h3>Monish Shrestha</h3>
+                <span>CEO & Founder</span>
+                <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                <button><i class="fa fa-envelope"></i> Contact</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="Priyanka.jpeg" alt="">
+            <div class="card-content">
+                <h3>Priyanka badal</h3>
+                <span>Art Director</span>
+                <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                <button><i class="fa fa-envelope"></i> Contact</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="Amogh.jpeg" alt="">
+            <div class="card-content">
+                <h3>Amogh shakya</h3>
+                <span>Web Designer</span>
+                <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                <button><i class="fa fa-envelope"></i> Contact</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="Praphul.jpeg" alt="">
+            <div class="card-content">
+                <h3>Praphul Shrestha</h3>
+                <span>Designer</span>
+                <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                <button><i class="fa fa-envelope"></i> Contact</button>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- Stats Section -->
+<div class="stats">
+
+<div class="stat-box">
+<h2>14+</h2>
+<p>Partners</p>
+</div>
+
+<div class="stat-box">
+<h2>55+</h2>
+<p>Projects Done</p>
+</div>
+
+<div class="stat-box">
+<h2>89+</h2>
+<p>Happy Clients</p>
+</div>
+
+<div class="stat-box">
+<h2>150+</h2>
+<p>Meetings</p>
+</div>
+
+</div>
+
+<!-- Work Section -->
+
+<section id="work" class="work">
+    <h2>OUR WORK</h2>
+    <p>Check out some of our recent projects</p>
+
+    <div class="gallery">
+
+<img src="https://www.w3schools.com/w3images/tech_mic.jpg">
+<img src="https://www.w3schools.com/w3images/tech_phone.jpg">
+<img src="https://www.w3schools.com/w3images/tech_drone.jpg">
+<img src="https://www.w3schools.com/w3images/tech_sound.jpg">
+
+<img src="https://www.w3schools.com/w3images/tech_tablet.jpg">
+<img src="https://www.w3schools.com/w3images/tech_camera.jpg">
+<img src="https://www.w3schools.com/w3images/tech_typewriter.jpg">
+<img src="https://www.w3schools.com/w3images/tech_tableturner.jpg">
+
+</div>
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact" class="contact">
+
+<h2>CONTACT US</h2>
+<p>Lets get in touch. Send us a message:</p>
+
+<form>
+
+<input type="text" placeholder="Name" required>
+<input type="email" placeholder="Email" required>
+<input type="text" placeholder="Subject" required>
+
+<textarea rows="5" placeholder="Message"></textarea>
+
+<button type="submit">
+<i class="fa fa-paper-plane"></i> Send Message
+</button>
+
+</form>
+
+</section>
+
+</body>
+</html>
